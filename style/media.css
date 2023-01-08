@@ -1,0 +1,274 @@
+@media (max-width: 1400px) {
+  .farm__text {
+    width: 659px;
+    top: 16px;
+    left: 441px;
+    height: 662px;
+  }
+}
+@media (max-width: 1300px) {
+  .block {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+  }
+  .block-inside {
+    width: 170px;
+    height: 170px;
+    border-radius: 170px;
+  }
+  .products__items__fotter__wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1104px) {
+  .nav_toggle {
+    display: inline-block;
+    margin-left: 250px;
+  }
+
+  .header__navigation ul {
+    display: none;
+  }
+
+  #nav_toggle:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #7eb693;
+    opacity: 0.9;
+    z-index: 10;
+    width: 20%;
+    margin-left: 0;
+  }
+
+  .header__navigation li:first-child > a {
+    font-size: 33px;
+  }
+
+  .header__navigation li > a {
+    padding: 45px 10px;
+    text-align: center;
+    display: inline-block;
+    width: calc(100% - 20px);
+    font-size: 33px;
+    color: #fff;
+    margin-left: 0;
+  }
+
+  .header__navigation li > a:hover {
+    background-color: rgba(249, 217, 235, 0.8);
+  }
+  .header__navigation li:last-child a {
+    margin-left: 0;
+  }
+  .aboutus__wrapper {
+    padding-top: 20px;
+  }
+  .aboutus__wrapper-info p {
+    width: inherit;
+    margin: 2px 0 11px 0;
+  }
+  .wrapper__natural {
+    padding: 40px 0;
+  }
+  .subscride__form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscride__button {
+    margin-top: 5px;
+  }
+  .wrapper__footer {
+    padding: 0;
+    flex-direction: column;
+  }
+  .fotter__contact {
+    text-align: center;
+    align-self: stretch;
+  }
+  .footer__logo {
+    order: -1;
+  }
+  .wrapper__footer__logo {
+    padding: 10px 0 0 0;
+  }
+  .fotter__contact__item:not(:first-child),
+  .utility__pages a:not(:first-child),
+  .fotter__contact h2,
+  .utility__pages a:not(:first-child),
+  .footer__logo p {
+    margin: 0px;
+  }
+
+  .farm {
+    background-size: cover;
+    padding-top: 20px;
+  }
+  .farm__text {
+    width: 100%;
+    margin: 0px auto 10px auto;
+    top: 0;
+    left: 0;
+    height: auto;
+  }
+}
+
+@media (max-width: 970px) {
+  .promo {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .aboutus {
+    background-image: url(../img/aboutfon.png);
+  }
+  .aboutus__img {
+    display: none;
+  }
+  .aboutus__wrapper-info {
+    margin: 10px auto;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 20px;
+  }
+  .aboutus__button {
+    margin: 10px auto;
+  }
+  .reiews__text {
+    width: auto;
+  }
+  .reiews__text p {
+    margin: 0 auto;
+  }
+  .reiews__text__avatar-prof {
+    padding-bottom: 0;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .reiews__circle-info {
+    margin: 20px 0;
+  }
+  .reiews__message {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 810px) {
+  .othergoods__block__namegoods {
+    width: 100%;
+    height: 278px;
+  }
+  .othergoods__block {
+    grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .header__wrapper {
+    flex-direction: column-reverse;
+  }
+  .navigation__wrapper {
+    flex-direction: column;
+  }
+  .nav_toggle {
+    margin-left: 0px;
+  }
+  .items__wrapper {
+    padding: 0;
+  }
+  .product__items__img {
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+  }
+
+  .wrapper__organik__header {
+    padding: 40px 0 43.78px 0;
+  }
+  .organic__items {
+    padding-bottom: 40px;
+  }
+  .product__button {
+  
+    margin: 10px 0 0 15px;
+  }
+  .othergoods__block {
+    padding: 40px 0;
+  }
+  .otergoods__button {
+    margin: 90px 90px;
+  }
+  .wrapper__subscride__block {
+    flex-direction: column;
+  }
+  .wrapper__subscride__block {
+    padding: 40px;
+  }
+}
+@media (max-width: 678px) {
+  .promo h1 {
+    width: inherit;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .aboutus__wrapper-info h2 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .natural__fruts__wrapper {
+    padding: 20px 0 20px 54px;
+  }
+
+  .footer__logo p {
+    width: 100%;
+  }
+  .farm__text h2 {
+    line-height: 43px;
+    width: auto;
+  }
+  .subscride__form input {
+    padding: 26px 50px 27px 30px;
+  }
+  .organic__button {
+    width: 174px;
+  }
+  .organic__vector {
+    width: 69px;
+  }
+}
+
+@media (max-width: 330px) {
+  .natural__vegetables .natural__text {
+    width: 214px;
+  }
+  .wrapper__natural {
+    grid-template-columns: repeat(auto-fit, minmax(239px, 1fr));
+  }
+  .button span {
+    margin: 10px;
+  }
+  .button-vector img {
+    
+    left: 23.56%;
+  }
+  .organic__button .button-vector {
+   
+      width: 54px;
+}
+.subscride__header h2 {
+  width: auto;
+  text-align: center;
+}
+}
