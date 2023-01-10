@@ -163,9 +163,6 @@ p {
   width: 100%;
   transition: width .3s;
 }
-li {
-  margin-bottom: 10px;
-}
 
 .header__navigation a,.footer__contact__item a{
   display: inline-block;
@@ -707,9 +704,7 @@ li {
   font-family: "OpenSans-Regular";
   font-size: 18px;
   line-height: 29px;
-  letter-spacing: 0.36px;
   color: #525c60;
-  padding-left: 50px;
 }
 
 .subscride__button {

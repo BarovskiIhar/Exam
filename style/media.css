@@ -20,6 +20,17 @@
   .products__items__fotter__wrapper {
     flex-direction: column;
   }
+  .product__items__img {
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+  }
+}
+@media(max-width:1152px){
+  .promo {
+    height: auto;
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 1104px) {
   .nav_toggle {
@@ -96,14 +107,33 @@
   .wrapper__footer__logo {
     padding: 10px 0 0 0;
   }
+  .utility,.footer__contact {
+    text-align: center;
+}
+
+.utility h2,.footer__contact h2 {
+  margin-bottom: 0px;
+}
+
   .fotter__contact__item:not(:first-child),
   .utility__pages a:not(:first-child),
   .fotter__contact h2,
   .utility__pages a:not(:first-child),
-  .footer__logo p {
+  .footer__contact__item a {
     margin: 0px;
+    margin-left: 15px;
   }
-
+  .footer__logo p{
+    margin: 0;
+  }
+  .footer__contact__item {
+    flex-direction: row;
+    display: block;
+    
+  }
+  .footer__contact__item:not(:first-child) {
+    margin-top: 10px;
+}
   .farm {
     background-size: cover;
     padding-top: 20px;
@@ -118,10 +148,6 @@
 }
 
 @media (max-width: 970px) {
-  .promo {
-    height: auto;
-    padding-bottom: 20px;
-  }
   .aboutus {
     background-image: url(../img/aboutfon.png);
   }
@@ -184,11 +210,7 @@
   .items__wrapper {
     padding: 0;
   }
-  .product__items__img {
-    width: 180px;
-    height: 180px;
-    margin: 10px auto;
-  }
+
 
   .wrapper__organik__header {
     padding: 40px 0 43.78px 0;
@@ -252,7 +274,7 @@
     padding: 26px 50px 27px 30px;
   }
   .organic__button {
-    width: 174px;
+    width: 191px;
   }
   .organic__vector {
     width: 69px;
