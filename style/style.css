@@ -229,6 +229,9 @@ p {
   position: relative;
   margin: 7px 10px 7px 11px;
 }
+.basket:hover{
+  background-color: #7eb693;;
+}
 .basket img {
   position: absolute;
   top: 15px;
@@ -261,7 +264,9 @@ p {
 }
 .natural__fruts {
   background-image: url(../img/natutalimg.png);
+
 }
+
 .natural__fruts__wrapper {
   padding: 105px 0 105px 55px;
 }
@@ -594,7 +599,7 @@ p {
   padding: 139px 0 43.78px 0;
 }
 .organic__button {
-  width: 267px;
+  width: 271px;
 }
 
 .organic__items {
