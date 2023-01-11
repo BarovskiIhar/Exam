@@ -246,7 +246,7 @@
   .header__navigation li:first-child > a {
     font-size: 22px;
   }
-  .header__navigation li > a {
+  .header__navigation li > a,.header__navigation li:last-child a{
     padding: 24px 0px;
     width: calc(100% - 0px);
     font-size: 22px;
@@ -282,6 +282,9 @@
 }
 
 @media (max-width: 330px) {
+   .header__navigation li > a,.header__navigation li:last-child a{
+    font-size: 17px;
+  }
   .natural__vegetables .natural__text {
     width: 214px;
   }
